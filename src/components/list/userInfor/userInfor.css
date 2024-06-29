@@ -26,5 +26,13 @@
       height: 20px;
       cursor: pointer;
     }
+
+    .logout-img {
+      filter: invert();
+
+      &:hover {
+        filter: none;
+      }
+    }
   }
 }

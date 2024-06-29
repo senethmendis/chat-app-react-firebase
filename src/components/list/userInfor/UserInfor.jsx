@@ -1,5 +1,6 @@
 import "./userInfor.css";
 import { useUserStore } from "../../../lib/userStore";
+import { auth } from "../../../lib/firebase";
 
 const UserInfor = () => {
   const { currentUser, isLoading, fetchUserInfo } = useUserStore();
@@ -11,6 +12,12 @@ const UserInfor = () => {
         <h3>{currentUser.username}</h3>
       </div>
       <div className="icons">
+        <img
+          src="./logout.png"
+          alt=""
+          className="logout-img"
+          onClick={() => auth.signOut()}
+        />
         <img src="./more.png" alt="" />
         <img src="./video.png" alt="" />
         <img src="./edit.png" alt="" />
