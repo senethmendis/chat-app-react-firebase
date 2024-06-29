@@ -6,9 +6,9 @@
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 
-* [![React][React.js]][React-url]
-* [![zustand][zustand]][[zustand-url](https://docs.pmnd.rs/zustand/getting-started/introduction)]
-* * [![firebase][firebase]][firebase-url](https://firebase.google.com/)]
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
